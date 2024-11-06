@@ -63,11 +63,6 @@ class graph:
                 new_graph.training_data.append(new_dot)
         return new_graph
 
-graph2 = graph.csv_to_graph('test_data.csv')
-d10 = dp("d10", [11, 12, 13, 14, 15, 16], 1)
-print(graph2.training_data)
-print(dp.choose_nearest_k(d10, graph2, 3))
-
 
 
 
